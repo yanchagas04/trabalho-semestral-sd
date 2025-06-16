@@ -130,7 +130,8 @@ O processo envolve:
 2.  **Configurar o Frontend:**
 - Instalar dependências (npm install)
 - Definir o arquivo .env com a url do backend (http://localhost:3001)
-- Iniciar o servidor de desenvolvimento (npm run dev) exposto na porta (http://localhost:5173).
+3. **Iniciar o servidor de desenvolvimento:**
+- Rodar npm run dev, deixando o servidor exposto na porta (http://localhost:5173).
 
 O uso de Docker e Docker Compose foi feito para facilitar a configuração do ambiente, indicado pelos arquivos `Dockerfile` e `docker-compose.yml` presentes no diretório `Backend`.
 
