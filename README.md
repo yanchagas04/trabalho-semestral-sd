@@ -123,13 +123,15 @@ sugestões inteligentes de tarefas, posiciona o MelembraAI como uma ferramenta p
 
 ## 5. Como Executar o Projeto
 
-Para executar o projeto MelembraAI, siga as instruções detalhadas nos `README.md` de cada subprojeto (Backend e Frontend). Geralmente, o processo envolve:
+O processo envolve:
 
-1.  **Configurar o Backend:** Instalar dependências (npm install), configurar o banco de dados (Prisma migrate) e iniciar o servidor (npm run dev).
-2.  **Configurar o Frontend:** Instalar dependências (npm install) e iniciar o servidor de desenvolvimento (npm run dev).
+1.  **Iniciar o Backend:** 
+- docker compose up ou docker-compose up, que subirá um contêiner docker com o Backend exposto na porta 3001 do localhost
+2.  **Configurar o Frontend:**
+- Instalar dependências (npm install)
+- Definir o arquivo .env com a url do backend (http://localhost:3001)
+- Iniciar o servidor de desenvolvimento (npm run dev) exposto na porta (http://localhost:5173).
 
-Recomenda-se o uso de Docker e Docker Compose para facilitar a configuração do ambiente, conforme indicado pelos arquivos `Dockerfile` e `docker-compose.yml` presentes no diretório `Backend`.
-
----
+O uso de Docker e Docker Compose foi feito para facilitar a configuração do ambiente, indicado pelos arquivos `Dockerfile` e `docker-compose.yml` presentes no diretório `Backend`.
 
 
