@@ -1,5 +1,15 @@
 # MelembraAI - Relatório do Sistema
 
+## Discentes
+**Vinícius Fernandes de Oliveira**  
+[![GitHub](https://img.shields.io/badge/GitHub-vfdeoliveira1-blue?style=flat-square&logo=github)](https://github.com/vfdeoliveira1)
+
+**Vitor Hugo de Jesus Santos**  
+[![GitHub](https://img.shields.io/badge/GitHub-vhjsoficial1-blue?style=flat-square&logo=github)](https://github.com/vhjsoficial1)
+
+**Yan Campêlo das Chagas**  
+[![GitHub](https://img.shields.io/badge/GitHub-yanchagas04-blue?style=flat-square&logo=github)](https://github.com/yanchagas04) 
+
 Este relatório detalha a arquitetura, funcionalidades e tecnologias utilizadas no sistema **MelembraAI**, um gerenciador de tarefas inteligente. O sistema é dividido em duas partes principais: um **Backend** (API) e um **Frontend** (interface do usuário).
 
 ## 1. Arquitetura do Sistema
